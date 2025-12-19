@@ -1,0 +1,107 @@
+.education{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap:80px;
+   margin: 80px 170px; 
+}
+.edu-title{
+    position: relative;
+}
+.edu-title h1{
+    padding: 0 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.edu-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.edu-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+    font-family: 'outfit';
+}
+.edu-container{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.edu-format h4{
+    font-size: 24px;
+}
+.edu-format h1{
+    font-size: 34px;
+    font-weight: 600;
+    background: linear-gradient(270deg,#DF8908 70%,#B415ff 90%);
+    background-clip: text;
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+}
+.edu-format h3{
+    color:#d4d4d4;
+    font-size: 22px;
+    line-height: 25px;
+    max-width: 400px;
+}
+.edu-format h2{
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415ff 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.edu-format:hover{
+    border: 2px solid #ff00ff;
+    background-image: linear-gradient(45deg,#3f0028,#582300);
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+@media (max-width:768px) {
+    .education{
+        align-items: start;
+        gap: 60px;
+        margin: 20px 70px;
+    }
+    .edu-title h1{
+        padding: 0 ;
+        font-size: 28px;
+
+    }
+    .edu-title img{
+        width: 90px;
+        right: -15px;
+    }
+    .edu-format{
+        gap: 20px;
+        padding: 30px;
+    }
+    .edu-format h1{
+        font-size: 30px;
+    }
+    .edu-format h3{
+       font-size: 18px;
+       line-height: 25px;
+       max-width: 300px; 
+    }
+    .edu-format h2{
+        font-size: 22px;
+
+    }
+    .edu-container{
+        grid-template-columns:auto ;
+        gap: 30px;
+        width: 500px;
+    }
+
+}
