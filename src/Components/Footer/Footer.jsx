@@ -15,11 +15,11 @@ const Footer = () => {
                &copy; 2025 Built with React JS. All rights reserved.</p>
         <div className="footer-b-right">
             <div className="footer-images">
-                <img src={linkdin} alt="" />
-                <img src={email} alt="" />
-                <img src={whatsapp} alt="" />
-                <img src={instagram} alt="" />
-                <img src={github} alt="" />
+                <a href="https://www.linkedin.com/in/abdulraheem15" target='_blank'><img src={linkdin} alt="" /></a>
+                <a href="mailto:abraheem7121@gmail.com" ><img src={email} alt="" /></a>
+                <a href="https://wa.me/8861741348" ><img src={whatsapp} alt="" /></a>
+                <a href="https://www.instagram.com/abdul.raheem_08" target="_blank"><img src={instagram} alt="" /></a>
+                <a href="https://github.com/AbdulRaheem1508" target='_blank'><img src={github} alt="" /></a>
             </div>
         </div>
         </div>

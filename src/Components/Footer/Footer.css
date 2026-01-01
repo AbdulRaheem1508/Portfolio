@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 10px ;
-    background: linear-gradient(270deg,#df8908b6 10%,#b515ff90 100%);
+    background: linear-gradient(270deg,#aa6804b6 ,#bb6fde90 );
     /* align-items: center; */
 }
 .footer-b-left{
@@ -12,14 +12,14 @@
     font-size: 20px;
 }
 .footer-b-right{
-    max-width: 900px;
+    max-width: 1200px;
 }
 .footer-b-right img{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50px;
     /* gap: 30px; */
-    padding: 0 10px;
+    padding: 6px 10px;
     cursor: pointer;
     transition: 0.4s;
 }

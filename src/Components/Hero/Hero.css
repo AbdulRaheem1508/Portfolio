@@ -3,13 +3,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
 }
 .hero img{
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .hero h1{
     text-align: center;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme from '../../assets/theme_pattern.svg'
-import profile from '../../assets/abt1.png'
+import profile from '../../assets/abt-profile.png'
 
 const About = () => {
   return (
@@ -20,11 +20,11 @@ const About = () => {
                 <p>As a fresher, I bring energy, curiosity, and a strong willingness to learn. I’m excited to take on new challenges, collaborate with teams, and contribute to meaningful, high-quality development work.</p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"95%"}} /></div>
-                <div className="about-skill"><p>JavaScript</p><hr style={{width:"65%"}} /></div>
-                <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}} /></div>
-                <div className="about-skill"><p>Node JS</p><hr style={{width:"75%"}} /></div>
-                <div className="about-skill"><p>Express JS</p><hr style={{width:"60%"}} /></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"100%"}} /></div>
+                <div className="about-skill"><p>JavaScript</p><hr style={{width:"75%"}} /></div>
+                <div className="about-skill"><p>React JS</p><hr style={{width:"72%"}} /></div>
+                <div className="about-skill"><p>Node JS</p><hr style={{width:"70%"}} /></div>
+                <div className="about-skill"><p>Express JS</p><hr style={{width:"75%"}} /></div>
                 <div className="about-skill"><p>Mongo DB</p><hr style={{width:"70%"}} /></div>
             </div>
         </div>
