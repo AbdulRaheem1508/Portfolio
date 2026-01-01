@@ -12,7 +12,7 @@ const Hero = () => {
       <p>A dedicated MERN Stack Developer focused on crafting modern, responsive, and high-performance web applications.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact' > Connect With Me</AnchorLink></div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume"><a href="../../../public/AbdulRaheem-MERN.pdf" target='_blank'>My Resume</a></div>
       </div>
     </div>
   )
